@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Teste Mobile
+		</title>
+		<link rel="stylesheet" href="css/compiled/style.css">
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		
+			
+		<section id="sidemenu">
+		
+			<ul>
+				<li>
+					<a href="">
+						Inicial	
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Setor 1
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Setor 2
+					</a>
+				</li>
+			</ul>
+
+		</section>
+		
+		<section id="content">
+			Conteúdo principal porra <span id="count"></span>
+			<button class="open-menu">Abrir menu</button>
+		</section>
+
+		<script type="text/javascript">
+		document.querySelector('.open-menu').addEventListener('click', function(evt){
+			console.log('opa');
+		})
+		</script>
+		
+		<script type="text/javascript" src="bower_components/quojs/quo.standalone.js"></script>
+		<script type="text/javascript" src="bower_components/quojs/quo.gestures.js"></script>
+		<script type="text/javascript" src="js/quojs-sidemenu.js"></script>
+
+	</body>
+</html>
