@@ -26,13 +26,14 @@ Include jQuery, Hammer.js and then the plugin.
 ## Creating an html menu
 Create a container inside document root (or wherever closest to there that you can get)
 ```html
-<section id="sidemenu">		
-	<ul>
-		<li>
-			<a href="#">Index</a>
-		</li>
-	</ul>
-</section>
+<body>
+	<section id="sidemenu">		
+		<ul>
+			<li>
+				<a href="#">Index</a>
+			</li>
+		</ul>
+	</section>
 ```
 
 
