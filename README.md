@@ -1,7 +1,7 @@
 MobileSideMenu
 =
 
-MobileSlideMenu is a draggable/swipe sidemenu plugin, using jQuery and Hammer.js. It takes advantage of CSS3 to make animations as smooth and light as possible, aiming to mobile devices. It mimics some behaviours from android's side menu.
+MobileSlideMenu is a draggable/swipe sidemenu plugin, using jQuery and Hammer.js. It was born because I wasn't satisfied with the currently available sidemenu plugins: they're really slow in mobile and not so flexible. I wanted a sidemenu that could resemble a native experience, smooth and fast. MobileSideMenu takes advantage of CSS3 to make animations as smooth and light as possible, aiming to mobile devices. It mimics some behaviours from android's side menu.
 
 
 ## Setting it up
@@ -65,3 +65,7 @@ var sideMenu = $('#sidemenu').mobileSideMenu({
 	content: {}, // jQuery Object, mandatory if you'll use pushContent
 });
 ```
+
+
+## Contribute or Fork it
+You're totally welcome to bring ideas and help me build this. If you think something went out of the rails or there's something i'm missing out, just send me a message, dude.
