@@ -1,0 +1,31 @@
+{
+  "name": "MobileSideMenu",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kikobr/MobileSideMenu",
+  "authors": [
+    "Kiko Herrschaft <kiko.herrschaft@gmail.com>"
+  ],
+  "description": "A sidemenu that emulates a drawer.",
+  "main": "js/mobilesidemenu.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "mobile",
+    "sidemenu",
+    "drawer",
+    "menu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hammerjs": "~2.0.4",
+    "jquery": "~2.1.1"
+  }
+}
